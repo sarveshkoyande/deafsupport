@@ -11,8 +11,8 @@ android {
         applicationId = "com.echosense.app"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "0.1-stage0"
+        versionCode = 2
+        versionName = "0.2-stage1"
     }
 
     buildTypes {
@@ -35,6 +35,6 @@ android {
 }
 
 dependencies {
-    // ARCore, used in Stage 0 only to check whether this phone supports depth sensing.
+    // ARCore: camera pose + Depth API used to detect obstacle distance.
     implementation("com.google.ar:core:1.42.0")
 }

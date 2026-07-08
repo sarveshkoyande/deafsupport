@@ -11,8 +11,8 @@ android {
         applicationId = "com.echosense.app"
         minSdk = 24
         targetSdk = 34
-        versionCode = 2
-        versionName = "0.2-stage1"
+        versionCode = 3
+        versionName = "0.3-gentletone"
     }
 
     buildTypes {

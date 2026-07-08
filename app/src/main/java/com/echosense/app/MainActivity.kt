@@ -82,7 +82,7 @@ class MainActivity : Activity(), TextToSpeech.OnInitListener {
     override fun onInit(status: Int) {
         ttsReady = status == TextToSpeech.SUCCESS
         if (ttsReady) tts?.language = Locale.US
-        speak("EchoSense active. Point the camera forward. Beeps get faster and higher as you approach something.")
+        speak("EchoSense active. Point the camera forward. A soft tone rises in pitch as you get closer to something.")
     }
 
     override fun onResume() {

@@ -13,3 +13,6 @@ local.properties
 
 # Keep the Gradle wrapper jar tracked (do NOT ignore it)
 !gradle/wrapper/gradle-wrapper.jar
+
+# Local Claude Code settings
+.claude/

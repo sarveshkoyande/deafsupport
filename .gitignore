@@ -1,0 +1,15 @@
+# Build outputs
+.gradle/
+build/
+app/build/
+
+# Local config
+local.properties
+
+# IDE
+*.iml
+.idea/
+.DS_Store
+
+# Keep the Gradle wrapper jar tracked (do NOT ignore it)
+!gradle/wrapper/gradle-wrapper.jar
